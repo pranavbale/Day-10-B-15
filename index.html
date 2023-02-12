@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap"
+        rel="stylesheet">
+    <!-- Connect Css file  -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Creating the form for gatting the data form user -->
+    <section>
+        <div class="main-section">
+            <h1>Users Information</h1>
+            <div class="info">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="first-name" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="first-name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="last-name" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="last-name">
+                    </div>
+                    <div class="col-12">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                        <label for="food" class="form-label">Food</label>
+                        <input type="text" class="form-control" id="food" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-12">
+                        <label for="state" class="form-label">State</label>
+                        <input type="text" class="form-control" id="state" placeholder="Enter a name of your State">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="country" class="form-label">Country</label>
+                        <input type="text" class="form-control" id="country">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="gender" class="form-label">Gender</label>
+                        <select id="gender" class="form-select">
+                            <option selected value="None">Choose...</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <!-- <input type="text" class="form-control" id="gender"> -->
+
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Pincode</label>
+                        <input type="text" class="form-control" id="pincode">
+                    </div>
+                    <div class="col-12">
+                        <input type="button" class="btn btn-primary" value="Add / Update Data" id="submit">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Showing the user information  -->
+        <div class="">
+            <h1>Show Information</h1>
+            <table class="table-light  user-information" id="table">
+                <tr class="table-light">
+                    <td class="table-light">First Name</td>
+                    <td class="table-light">Last Name</td>
+                    <td class="table-light">Address</td>
+                    <td class="table-light">Pin Code</td>
+                    <td class="table-light">Gender</td>
+                    <td class="table-light">Food</td>
+                    <td class="table-light">State</td>
+                    <td class="table-light">Country</td>
+                    <td class="table-light">Edit</td>
+
+                </tr>
+
+
+            </table>
+
+        </div>
+    </section>
+
+
+    <script src="/script.js"></script>
+
+
+</body>
+
+</html>

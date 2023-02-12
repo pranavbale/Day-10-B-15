@@ -1,0 +1,64 @@
+/* font family */
+
+/* font-family: 'Roboto', sans-serif; */
+
+/* color
+background color : #fff4e6
+text- color : #4A3F2E */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.main-section {
+  margin: 10px;
+  height: 580px;
+  background-color: #fff4e6;
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #4a3f2e;
+}
+
+.sidee {
+  display: block;
+  float: right;
+  /* padding-right: 100px; */
+  margin-right: 100px;
+}
+
+.user-information {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr td {
+  border: 3px solid #ced4da;
+  min-width: 100px;
+  font-size: 20px;
+}
+
+td {
+  text-align: center;
+}
+
+td:nth-child(9) {
+  border: 3px solid #ced4da;
+  width: 100px;
+  font-size: 20px;
+}
+
+/* 
+td input :last-child {
+  padding-left: 5px;
+} */
